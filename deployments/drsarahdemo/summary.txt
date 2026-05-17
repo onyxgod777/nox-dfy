@@ -1,0 +1,25 @@
+═══════════════════════════════════════
+  NOX DFY — Deployment Summary
+═══════════════════════════════════════
+  Client: DrSarahDemo
+  Tier:   content (Blog writing + SEO automation)
+  Price:  $2500
+  Agents: 2
+
+  Agents:
+    • drsarahdemo-writer — writer
+      Schedule: 0 9 * * *
+    • drsarahdemo-seo — seo
+      Schedule: 0 8 * * 0
+
+  Setup checklist:
+  [ ] VPS/server provisioned
+  [ ] OpenClaw installed
+  [ ] Agents configured
+  [ ] Cron jobs created
+  [ ] Telegram delivery wired
+  [ ] DNS + SSL configured
+  [ ] Client briefed
+  [ ] Payment received
+
+═══════════════════════════════════════

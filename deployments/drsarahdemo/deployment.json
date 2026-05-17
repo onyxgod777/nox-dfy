@@ -1,0 +1,24 @@
+{
+  "client": "DrSarahDemo",
+  "slug": "drsarahdemo",
+  "tier": "content",
+  "price": "2500",
+  "deployedAt": "2026-05-17T02:36:14.374Z",
+  "agents": [
+    {
+      "name": "drsarahdemo-writer",
+      "type": "writer",
+      "client": "DrSarahDemo",
+      "prompt": "You are a content writing agent for DrSarahDemo.\nWrite blog posts about their niche. Each post should be 1000-1500 words,\nSEO-optimized with proper headings, meta descriptions, and internal links.\nWrite in professional tone. Publish to the client's website.",
+      "schedule": "0 9 * * *"
+    },
+    {
+      "name": "drsarahdemo-seo",
+      "type": "seo",
+      "client": "DrSarahDemo",
+      "prompt": "You are an SEO audit agent for DrSarahDemo.\nCheck all pages for: meta tags, OG tags, headings, broken links, sitemap.\nFix issues found. Run weekly.",
+      "schedule": "0 8 * * 0"
+    }
+  ],
+  "status": "deployed"
+}
